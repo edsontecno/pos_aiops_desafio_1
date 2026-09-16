@@ -46,7 +46,7 @@ resource "aws_vpc" "this" {
 
 ## Modelo
 
-Grok 4.5 Fast.
+Grok 4.5 Fast — rápido para gerar módulos Terraform padronizados.
 
 ## Output:
 

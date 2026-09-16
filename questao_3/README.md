@@ -31,7 +31,7 @@ Oportunidades priorizadas - percentual de redução - total de esforço (baixo, 
 
 ## Modelo
 
-Gemini Flash 3.6.
+Gemini Flash 3.6 — rápido para análise de custos e relatório em markdown.
 
 ## Output:
 

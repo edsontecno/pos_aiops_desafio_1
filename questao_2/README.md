@@ -26,7 +26,7 @@ A resposta deve incluir o script bash completo para o backup, entrada cron para 
 
 ## Modelo
 
-Claude Sonnet 5.
+Claude Sonnet 5 — bom para script bash, cron e integração com AWS.
 
 ## Output:
 

@@ -42,7 +42,7 @@ Gere um sql que retorne a seguinte informação: um recorte dos últimos 6 meses
 
 ## Modelo
 
-Claude Sonnet 5.
+Claude Sonnet 5 — preciso em SQL com filtros, agrupamento e conversão de valores.
 
 ## Output:
 

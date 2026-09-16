@@ -42,7 +42,7 @@ Atualize o manifesto seguindo as regras especificadas.
 
 ## Modelo
 
-Manus 1.6 Lite.
+Manus 1.6 Lite — adequado para modernizar manifestos Kubernetes de produção.
 
 ## Output:
 

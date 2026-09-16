@@ -37,7 +37,7 @@ Dockerfile seguindo os padrões de mercado, utilizando muiltstage build para oti
 
 ## Modelo
 
-Claude Sonnet 5.
+Claude Sonnet 5 — bom para Dockerfile multistage e boas práticas de container.
 
 ## Output:
 

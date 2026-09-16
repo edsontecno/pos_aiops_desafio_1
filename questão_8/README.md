@@ -89,7 +89,7 @@ Seja objetivo: priorize a exatidão técnica em vez da completude, pois o docume
 
 ## Modelo
 
-Sonnet 5
+Sonnet 5 — bom para correlacionar evidências e recomendar ação em incidente.
 
 ## Output:
 
@@ -179,4 +179,10 @@ Sonnet 5
 
 ## Justificativa
 
-O R-I-S-E é ideal aqui porque precisamos de uma decisão técnica baseada em evidências, não de um texto genérico. Ele amarra bem o contexto e o passo a passo da IA. O maior ganho é evitar decisões no susto, como escalar o RDS ou reverter o deploy logo de cara. Temos saturação clara na rota Chronos-Ledger, mas ainda não dá para cravar se o gargalo é o novo pool, o endpoint batch, o banco ou o novo driver
+O R-I-S-E é ideal aqui porque precisamos de uma decisão técnica baseada em evidências, não de um texto genérico. Ele amarra bem o contexto e o passo a passo da IA. O maior ganho é evitar decisões sem evidências, como escalar o RDS ou reverter o deploy logo de cara. Temos saturação clara na rota Chronos-Ledger, mas ainda não dá para cravar se o gargalo é o novo pool, o endpoint batch, o banco ou o novo driver
+
+Em comparação, o R-T-F oferece uma simplicidade e rapidez, além de ajudar a produzir um documento bem formatado. Porém, perderia controle sobre a decomposição das evidências. Neste caso, isso aumentaria o risco de gerar um postmortem organizado, mas superficial.
+
+Por outro lado O C-A-R-E ganharia em clareza narrativa, entretanto, como a ação ainda não foi escolhida, o framework pode pressupor uma sequência retrospectiva que não existe. Também perderia precisão para representar as lacunas de observabilidade, os cenários alternativos e os critérios objetivos necessários para decidir entre rollback e scaling.
+
+Portanto, o R-I-S-E oferece o melhor equilíbrio entre contexto técnico, raciocínio estruturado, controle de incerteza e orientação para decisão. Ele preserva os benefícios de clareza dos demais frameworks, mas acrescenta os elementos essenciais para este caso.

@@ -36,7 +36,7 @@ Espero um Runbook estruturado com seções como títulos, subtítulos e blocos d
 
 ## Modelo
 
-GPT 5.6
+GPT 5.6 — claro em runbooks operacionais passo a passo.
 
 ## Output:
 
