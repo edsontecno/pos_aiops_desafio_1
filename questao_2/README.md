@@ -26,7 +26,7 @@ A resposta deve incluir o script bash completo para o backup, entrada cron para 
 
 ## Modelo
 
-Claude Sonnet 5: escolhido por equilibrar qualidade técnica e custo em tarefas de automação operacional.
+Claude Sonnet 5.
 
 ## Output:
 
