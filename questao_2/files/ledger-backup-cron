@@ -1,0 +1,14 @@
+# /etc/cron.d/ledger-backup
+#
+# Backup diário do banco ledger_prod às 03:00 UTC (baixa janela de tráfego).
+# Ajuste o horário conforme o fuso/janela de manutenção real do negócio.
+#
+# Executa como usuário de serviço dedicado "ledgerbackup" (não root, não
+# o usuário de login humano) — ver DEPLOY.md para criação desse usuário
+# e das permissões necessárias.
+
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+MAILTO=""
+
+0 3 * * * ledgerbackup /usr/local/bin/ledger-backup.sh >> /var/log/ledger-backup.log 2>&1
